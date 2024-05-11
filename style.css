@@ -1,0 +1,151 @@
+body, a, main{
+    font-family: Helvetica, Arial;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+/* navigation bar, (navigtion links not centered) */
+li{
+    list-style-type: none; 
+}
+ul div{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+div li a{
+    margin-right: 10px;
+    padding-left: 30px;
+    position: relative;
+    top: 20%;
+    
+
+}
+nav img {
+    float: left;
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+nav{
+    border-bottom: 1px solid seashell;
+    height: 69px; 
+    
+}
+
+/* Our Mission */
+
+.Mission{
+    position: relative;
+    text-align: center;
+}
+.Missiontext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 91%;
+}
+.Mission img{
+    width: 91%;
+    height: 70%;
+}
+
+/* Teas */
+.Tea{
+    text-align: center;
+}
+.teaimg img{
+    height: 200px;
+    width: 300px;
+
+}
+.teaimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.teaimg h4{
+    margin-bottom: 10px;
+}
+/* Locations */
+
+.locations{
+    position: relative;
+    text-align: center;
+
+    /* Background image (not working) 
+    background-image: url(img/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 91% 140%;*/
+}
+.locations img{
+    width: 91%;
+    height: 70%; 
+}
+.location1txt{
+        /* Text */
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        background-color: black;
+        width: 20%;
+        height: 297px;
+        
+}
+.location2txt{
+    /* Text */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 20%;
+    
+}
+.location3txt{
+    /* Text */
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 20%;
+    
+    
+}
+.location4txt{
+    /* Text */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    margin-top: 15px;
+    
+    
+}
+/* Footer */
+.contact{
+    margin-bottom: 10px;
+    position: absolute;
+    top: 270%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 91%;
+    height: 40%;
+    text-align: center;
+}
+.copyright{
+    text-align: left;
+    margin-left: 10px;
+}
